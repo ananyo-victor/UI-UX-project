@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,584&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar nav{
+    background-color: #19191B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar nav p{
+    color: #5454D4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+.navbar nav ul{
+    padding: 15px 300px;
+    display: flex;
+    justify-content: center;
+}
+.navbar nav ul li{
+    list-style: none;
+    padding: 0 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #5454D4;
+}
+.navbar nav ul li a:hover{
+    color: white;
+    cursor: pointer;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #5454D4;
+}
+.button input{
+    width: 200px;
+    height: 24px;
+    border-radius: 6px;
+    background: black;
+    color: #5454D4;
+    font-weight: bold;
+
+}
+.btn{
+    width: 55px;
+    height: 24px;
+    border-radius: 6px;
+}
+.btn:hover{
+    background-color: #5454D4;
+}
+.container{
+    height: 150vh;
+    background-color: #5454D4;
+    display: flex;
+    justify-content: center;
+}
+ .slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 80vw;
+    margin-top: 25px;
+    border: 2px solid #19191B;
+    border-radius: 5px;
+    /* margin:0 auto;
+ 
+    overflow: hidden;
+    width: 20vw;
+    padding: 45px 400px;
+    padding-right: 415px; 
+    font-size: 30px; */
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+.first{
+    font-size: 70px;
+    color: white;
+}
+.second{
+    font-size: 65px;
+    color: white;
+}
+.third{
+    font-size: 60px;
+    color: white;
+}
+.write{
+    font-size: 34px;
+    margin: 0 46px;
+}
+.card{
+    margin: auto;
+    max-width: 95vw;
+}
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 40px;
+}
+footer{
+    background-color: #19191B;
+    height: 10vh;
+    color: #5454D4;
+    font-family: 'Nunito Sans', sans-serif;
+} 
